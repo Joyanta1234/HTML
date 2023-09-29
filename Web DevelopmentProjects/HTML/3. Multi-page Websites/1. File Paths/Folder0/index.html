@@ -1,0 +1,33 @@
+
+<!-- for the relative file path. .. means look up above. Means, we have to look 
+upper dir. means, like our main file is index.html. so, our main dir is  
+folder0. The bird picture is in -folder 2 which is in folder1. So, how to access it?
+for this fist of all we will go to the upper dir means in file paths dir folder.
+for this first one is ../ means we are going to the upper dir. In that dir the main
+picture is in folder 2 which is in folder 1. so, ../folder1/folder2/bird.png -->
+
+<!-- Now for the current dir. To, access the files in the current dir we will use
+./ for example,  cat picture. which is in folder 3 and folder 3 is in current dir means
+folder0. So, relative path is, ./folder3/cat.png-->
+
+<h1>All the Animals</h1>
+
+<h2>Rabbit:</h2>
+
+<img src="./rabbit.png" alt="It's a white rabbit in grass">
+
+<h2>Cat:</h2>
+
+<img src="./Folder3/cat.png" alt="it's a orange cat">
+
+<h2>Dog:</h2>
+
+<img src="../dog.png" alt="It's a cute dog smilling">
+
+<h2>Fish:</h2>
+
+<img src="../Folder1/fish.png" alt="It's a fish">
+
+<h2>Bird:</h2>
+
+<img src="../Folder1/Folder2/bird.png" alt="it's a bird">
